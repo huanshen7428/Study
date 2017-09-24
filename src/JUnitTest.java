@@ -8,6 +8,7 @@ public class JUnitTest {
 	@Test
 	public void test() {
 		fail("Not yet implemented");
+
 	}
 
 	enum A{
@@ -25,13 +26,13 @@ public class JUnitTest {
 		List<String> list = new ArrayList<String>();
 		System.out.println(list.size());
 	}
-	
+
 	public int number = 12345;
 	@Test
 	public void test3() {
 		System.out.println(number);
 	}
-	
+
 	class Student{
 		public String toString() {
 			return "hello";
@@ -46,5 +47,5 @@ public class JUnitTest {
 	public void test5() {
 		System.out.println("for test git commit");
 	}
-	
+
 }
