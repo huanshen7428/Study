@@ -45,11 +45,7 @@ public class JUnitTest {
 	}
 	@Test
 	public void test5() {
-<<<<<<< HEAD
-		System.out.println("for test git commit!!!");
-=======
 		System.out.println("for test git commit");
->>>>>>> parent of 437ff72... add a test
 	}
 	
 }
