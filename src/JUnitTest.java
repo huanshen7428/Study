@@ -45,7 +45,7 @@ public class JUnitTest {
 	}
 	@Test
 	public void test5() {
-		System.out.println("for test git commit");
+		System.out.println("for test git commit!!");
 	}
 	
 }
