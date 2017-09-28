@@ -45,7 +45,8 @@ public class JUnitTest {
 	}
 	@Test
 	public void test5() {
-		System.out.println("for test git commit");
+		File file = new File("lib/test.txt");
+		System.out.println(file.length());
 	}
 
 }
