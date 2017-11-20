@@ -6,7 +6,7 @@ public class MyApp {
 static Logger logger = Logger.getLogger("process[myTest1]");
 public static void main(String[] args) throws IOException {
 	BasicConfigurator.configure();
-	FileAppender fa = new FileAppender(null, "D:\\test.txt");
+//	FileAppender fa = new FileAppender(null, "D:\\test.txt");
 	
 	logger.debug("test");
 	logger.info("Enter application");

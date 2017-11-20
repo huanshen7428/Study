@@ -49,4 +49,20 @@ public class JUnitTest {
 		System.out.println(file.length());
 	}
 
+	@Test
+	public void test6() {
+		int[] arr1 = new int[] {1,2,2,2,3,3,3,4,5,6};
+		List<Integer> list = new ArrayList<Integer>();
+		for(int i=0;i<arr1.length;i++) {
+			if(!list.contains(arr1[i])) {
+				list.add(arr1[i]);
+			}
+		}
+	}
+	@Test
+	public void test_trim7() {
+		String str = " hehe '  ";
+		String str_res = str.replace("(^s)", "");
+		System.out.println(str_res);
+	}
 }
